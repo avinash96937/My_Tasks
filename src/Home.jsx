@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import TaskItem from "./TaskItem";
 import { Link } from "react-router-dom";
+import { useGetTasksQuery } from "./apiSlice";
 
 export default function Home() {
   const [tasksList, setTasksList] = useState([]);
@@ -10,6 +11,8 @@ export default function Home() {
   const [error, setError] = useState(null);
 
   const BASE_URL = "http://localhost:3000";
+
+  useGetTasksQuery();
 
   useEffect(() => {
     setIsLoading(true);
