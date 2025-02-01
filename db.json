@@ -1,11 +1,6 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "value": "Buy groceries",
-      "completed": false
-    },
-    {
       "id": 2,
       "value": "Walk the dog",
       "completed": true
@@ -24,6 +19,26 @@
       "value": "jgjl",
       "completed": true,
       "id": 6
+    },
+    {
+      "value": "kumar",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "value": "hey randi ke beti",
+      "completed": false,
+      "id": 8
+    },
+    {
+      "value": "hey randi",
+      "completed": false,
+      "id": 9
+    },
+    {
+      "value": "ho meri randi jan kab dogi",
+      "completed": true,
+      "id": 10
     }
   ]
 }
