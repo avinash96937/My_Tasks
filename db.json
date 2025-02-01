@@ -29,16 +29,6 @@
       "value": "hey randi ke beti",
       "completed": false,
       "id": 8
-    },
-    {
-      "value": "hey randi",
-      "completed": false,
-      "id": 9
-    },
-    {
-      "value": "ho meri randi jan kab dogi",
-      "completed": true,
-      "id": 10
     }
   ]
 }

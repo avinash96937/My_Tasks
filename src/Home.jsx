@@ -11,8 +11,9 @@ export default function Home() {
   const { data: tasksList, isLoading, error, isError } = useGetTasksQuery();
 
   const [addTask] = useAddTaskMutation()
-  const [updatedTask] = useUpdateTaskMutation()
+  const [updateTask] = useUpdateTaskMutation()
   const [deleteTask] = useDeleteTaskMutation()
+
 
 
   return (
